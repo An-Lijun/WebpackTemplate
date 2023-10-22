@@ -1,0 +1,11 @@
+body{
+  background-color: red;
+}
+.scroll-container {
+  margin: 10px;
+  width: 500px;
+  height: 150px;
+  overflow: overlay;
+  background-color: #eee;
+  white-space: nowrap;
+}
