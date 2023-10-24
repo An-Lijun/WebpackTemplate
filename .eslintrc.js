@@ -10,7 +10,7 @@ module.exports = {
   },
   // extends的优先级也是从后往前的
   rules: {
-    'no-console': 'warn', // 使用 "off", "warn", "error",
+    // 'no-console': 'warn', // 使用 "off", "warn", "error",
     'array-callback-return': 'error', // 数组方法必须return
     'constructor-super': 'error', //派生类必须调用super()
     'for-direction': 'error', // 不允许无限循环

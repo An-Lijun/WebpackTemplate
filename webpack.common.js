@@ -20,8 +20,7 @@ module.exports = {
   //打包出口
   output: {
     clean: true,
-    path: path.resolve(__dirname, './dist'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, './dist')
   },
   resolve: {
     extensions: ['.vue', '.js', '.ts'],

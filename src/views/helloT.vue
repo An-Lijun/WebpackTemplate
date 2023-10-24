@@ -5,7 +5,7 @@
       <button @click="fn">11</button>
   </div>
 </template>
-<script >
+<script lang="ts">
 import useUserStore from '@/store/modules/user';
 export default { setup () {
   const useUser = useUserStore();

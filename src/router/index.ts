@@ -7,12 +7,12 @@ const routes = [
   {
     path: '/hello',
     name: 'home',
-    component: () => import('../hello.vue')
+    component: () => import('@/views/Hello.vue')
   },
   {
     path: '/hello1',
     name: 'home1',
-    component: () => import('../helloT.vue')
+    component: () => import('@/views/helloT.vue')
   }
 ];
 const router = createRouter({
